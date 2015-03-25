@@ -6,9 +6,17 @@ Automatically turn your `h1` to `h6` tags into a scrollable sidenav. Angular-Sid
 
 ## Installation
 
+1. Install via bower
+
 	bower install angular-sidenav
 
+2. Add the module
+
 	app.module('myApp',['sidenav'])
+
+3. (Optional) Include the css
+
+    <link href="/assets/components/angular-sidenav/sidenav.css" rel="stylesheet">
 
 ## Usage
 
