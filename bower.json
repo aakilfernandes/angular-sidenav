@@ -1,0 +1,17 @@
+{
+  "name": "angular-sidenav",
+  "version": "1.0.0",
+  "homepage": "https://github.com/aakilfernandes/angular-sidenav",
+  "authors": [
+    "Aakil Fernandes <aakilfernandes@gmail.com>"
+  ],
+  "main": "sidenav.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
