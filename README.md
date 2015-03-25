@@ -2,6 +2,8 @@
 
 Automatically turn your `h1` to `h6` tags into a scrollable sidenav. Angular-Sidenav can also update the url fragment as the user scrolls.
 
+![Angular-Sidenav Screenshot](http://aakilfernandes.github.io/assets/images/angular-sidenav.png)
+
 [Demo](http://aakilfernandes.github.io/angular-sidenav/)
 
 ## Installation
