@@ -1,0 +1,38 @@
+.sidenav{position: relative;}
+
+.sidenav-nodes{
+	padding-left: 0;
+	list-style-type:none;
+}
+
+.sidenav-node > .sidenav-nodes{
+	display: none;
+}
+
+.sidenav-node.isActive > .sidenav-nodes{
+	display: block
+}
+
+.sidenav-node.sidenav-node-isActive .sidenav-node{
+	display: block
+}
+
+.sidenav-node{
+	/*override bootstrap class*/
+	position: static !important;
+	padding-left:20px;
+	line-height: 1.2em;
+}
+
+.sidenav-node-text{
+	text-decoration: none !important
+}
+
+.sidenav-node.isActive > .sidenav-node-text::before{
+	position: absolute;
+	content:'';
+	left: 0;
+	width:2px;
+	height: 1.2em;
+	background-color: rgb(44, 62, 80);
+}
